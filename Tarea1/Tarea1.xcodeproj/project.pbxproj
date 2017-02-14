@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		09D5911C1E4E78E900D07AFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D5911B1E4E78E900D07AFF /* main.m */; };
 		09D5911F1E4E78E900D07AFF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D5911E1E4E78E900D07AFF /* AppDelegate.m */; };
-		09D591221E4E78E900D07AFF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D591211E4E78E900D07AFF /* ViewController.m */; };
 		09D591251E4E78E900D07AFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09D591231E4E78E900D07AFF /* Main.storyboard */; };
 		09D591271E4E78E900D07AFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09D591261E4E78E900D07AFF /* Assets.xcassets */; };
 		09D5912A1E4E78E900D07AFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09D591281E4E78E900D07AFF /* LaunchScreen.storyboard */; };
@@ -21,14 +20,12 @@
 		09D5911B1E4E78E900D07AFF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		09D5911D1E4E78E900D07AFF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		09D5911E1E4E78E900D07AFF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		09D591201E4E78E900D07AFF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		09D591211E4E78E900D07AFF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		09D591241E4E78E900D07AFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		09D591261E4E78E900D07AFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09D591291E4E78E900D07AFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09D5912B1E4E78E900D07AFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09D591311E4E7B7F00D07AFF /* NumbersTableTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumbersTableTableViewController.h; sourceTree = "<group>"; };
 		09D591321E4E7B7F00D07AFF /* NumbersTableTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumbersTableTableViewController.m; sourceTree = "<group>"; };
+		09D591881E52A97500D07AFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +60,6 @@
 			children = (
 				09D5911D1E4E78E900D07AFF /* AppDelegate.h */,
 				09D5911E1E4E78E900D07AFF /* AppDelegate.m */,
-				09D591201E4E78E900D07AFF /* ViewController.h */,
-				09D591211E4E78E900D07AFF /* ViewController.m */,
 				09D591231E4E78E900D07AFF /* Main.storyboard */,
 				09D591261E4E78E900D07AFF /* Assets.xcassets */,
 				09D591281E4E78E900D07AFF /* LaunchScreen.storyboard */,
@@ -155,7 +150,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09D591221E4E78E900D07AFF /* ViewController.m in Sources */,
 				09D591331E4E7B7F00D07AFF /* NumbersTableTableViewController.m in Sources */,
 				09D5911F1E4E78E900D07AFF /* AppDelegate.m in Sources */,
 				09D5911C1E4E78E900D07AFF /* main.m in Sources */,
@@ -168,7 +162,7 @@
 		09D591231E4E78E900D07AFF /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				09D591241E4E78E900D07AFF /* Base */,
+				09D591881E52A97500D07AFF /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -313,6 +307,7 @@
 				09D591301E4E78E900D07AFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
